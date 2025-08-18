@@ -1,14 +1,21 @@
-import Container from '../components/Container'
-import Header from '../components/Header'
-import Navbar from '../components/Navbar'
+import Navbar from "../components/Navbar";
+import Banner from "../components/Banner";
+import NewArrival from "../components/NewArrival";
+import Offer from "../components/Offer";
+import Header from "../components/Header";
+import Products from '../components/Products';
 
 const Home = () => {
-    return (
-        <>
-            <Header/>
-            <Navbar/>
-        </>
-    )
+  return (
+    <>
+      <Header />
+      <Navbar />
+      <Banner />
+      <Offer />
+      <NewArrival />
+      <Products/>
+    </>
+  )
 }
 
 export default Home;
